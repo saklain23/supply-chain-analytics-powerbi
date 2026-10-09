@@ -10,15 +10,18 @@ End-to-end data analytics project using Excel, Power Query, PostgreSQL, and Powe
 - **Power Query** — Data transformation
 - **PostgreSQL** — Data storage and analysis
 - **Power BI** — Interactive dashboards
-- **Dataset** — Supply chain sales (~65K rows)
 
 ---
 
 ## 📊 Dashboard Preview
 
-![Delivery & Profitability Dashboard](dashboard_1_delivery.png)
+### Dashboard 1: Sales Performance
 
-![Supply Chain Sales Dashboard](dashboard_2_sales.png)
+![Sales Performance Dashboard](Dashboard_1_Sales.png)
+
+### Dashboard 2: Delivery & Profitability
+
+![Delivery Dashboard](dashboard_2_delivery.png)
 
 ---
 
@@ -32,8 +35,6 @@ End-to-end data analytics project using Excel, Power Query, PostgreSQL, and Powe
 
 ## 📈 SQL Analysis (PostgreSQL)
 
-Analyzed the dataset using SQL to extract business insights:
-
 - Total revenue, orders, and customers
 - Market-wise and region-wise sales
 - Product category performance
@@ -43,37 +44,12 @@ Analyzed the dataset using SQL to extract business insights:
 
 ---
 
-## 📊 Dashboard 1: Delivery & Profitability Operations
-
-| Metric | Value |
-|--------|-------|
-| Total Profit | ₹3,967K |
-| Profit Margin | 12% |
-| Late Delivery % | 57.33% |
-| On-Time % | 51.33% |
-| Avg Delay | 0.57 days |
-
----
-
-## 📊 Dashboard 2: Supply Chain Sales & Customer Overview
-
-| Metric | Value |
-|--------|-------|
-| Total Revenue | ₹33,054K |
-| Total Orders | 65,752 |
-| Total Customers | 20,652 |
-| Avg Order Value | ₹502.71 |
-| Total Products | 118 |
-
----
-
 ## 💡 Key Insights
 
 ### Delivery Performance
-- Late delivery rate is high (57.33%) — major improvement area
+- Late delivery rate is high (57.33%)
 - Second Class shipping has highest average delay (1.99 days)
 - Discounts above 21% significantly reduce profit margins
-- Southern Africa has the highest profit margin (15.1%)
 
 ### Sales Performance
 - Europe is the top market (₹97.69L)
@@ -88,10 +64,10 @@ Analyzed the dataset using SQL to extract business insights:
 | File | Description |
 |------|-------------|
 | `README.md` | Project documentation |
-| `analysis_queries.sql` | SQL analysis queries |
-| `supply_chain_dashboard.pbix` | Power BI dashboard file |
-| `dashboard_1_delivery.png` | Delivery & Profitability screenshot |
-| `dashboard_2_sales.png` | Sales & Customer Overview screenshot |
+| `Analysis_Queries.sql` | SQL analysis queries |
+| `Dashboard_1_Sales.png` | Sales dashboard screenshot |
+| `dashboard_2_delivery.png` | Delivery dashboard screenshot |
+| `supply_chain_dashboard.pdf` | Complete dashboard PDF |
 
 ---
 

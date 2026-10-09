@@ -1,19 +1,28 @@
-# Supply Chain & Delivery Analytics — End-to-End Project
+# Supply Chain & Delivery Analytics
 
 End-to-end data analytics project using Excel, Power Query, PostgreSQL, and Power BI to analyze supply chain sales, profitability, and delivery operations.
 
 ---
 
-## Tools Used
+## 🛠️ Tools Used
 
 - **Excel** — Initial data exploration
 - **Power Query** — Data transformation
-- **PostgreSQL** — SQL analysis
+- **PostgreSQL** — Data storage and analysis
 - **Power BI** — Interactive dashboards
+- **Dataset** — Supply chain sales (~65K rows)
 
 ---
 
-## Project Workflow
+## 📊 Dashboard Preview
+
+![Delivery & Profitability Dashboard](dashboard_1_delivery.png)
+
+![Supply Chain Sales Dashboard](dashboard_2_sales.png)
+
+---
+
+## 📌 Project Workflow
 
 1. **Data Transformation** — Cleaned and transformed data using Power Query
 2. **SQL Analysis** — Analyzed data using PostgreSQL
@@ -21,11 +30,11 @@ End-to-end data analytics project using Excel, Power Query, PostgreSQL, and Powe
 
 ---
 
-## SQL Analysis (PostgreSQL)
+## 📈 SQL Analysis (PostgreSQL)
 
 Analyzed the dataset using SQL to extract business insights:
 
-- Total revenue, orders, customers
+- Total revenue, orders, and customers
 - Market-wise and region-wise sales
 - Product category performance
 - Delivery delays and shipping mode analysis
@@ -34,9 +43,7 @@ Analyzed the dataset using SQL to extract business insights:
 
 ---
 
-## Power BI Dashboards
-
-### Dashboard 1: Delivery & Profitability Operations
+## 📊 Dashboard 1: Delivery & Profitability Operations
 
 | Metric | Value |
 |--------|-------|
@@ -46,18 +53,9 @@ Analyzed the dataset using SQL to extract business insights:
 | On-Time % | 51.33% |
 | Avg Delay | 0.57 days |
 
-**Visuals:**
-- Category-wise Profit
-- Avg Delay by Shipping Mode
-- Late Trend by Month
-- Shipping Mode Performance
-- Country-wise Sales (Map)
-- Discount Impact on Profit
-- Region Profit Margin (Top 5)
-
 ---
 
-### Dashboard 2: Supply Chain Sales & Customer Overview
+## 📊 Dashboard 2: Supply Chain Sales & Customer Overview
 
 | Metric | Value |
 |--------|-------|
@@ -67,17 +65,9 @@ Analyzed the dataset using SQL to extract business insights:
 | Avg Order Value | ₹502.71 |
 | Total Products | 118 |
 
-**Visuals:**
-- Market-wise Sales
-- Shipping Mode Distribution
-- Top 5 Products by Sales
-- Monthly Sales Trend
-- Department Revenue
-- Customers by Segment
-
 ---
 
-## Key Insights
+## 💡 Key Insights
 
 ### Delivery Performance
 - Late delivery rate is high (57.33%) — major improvement area
@@ -90,11 +80,10 @@ Analyzed the dataset using SQL to extract business insights:
 - Standard Class is the most used shipping mode (59.83%)
 - Consumer segment dominates (51.79%)
 - Fishing category generates highest profit (₹7.56L)
-- Field & Stream Sportsman 16 Gun Fire Safe is top product
 
 ---
 
-## Files
+## 📁 Files
 
 | File | Description |
 |------|-------------|
@@ -106,7 +95,7 @@ Analyzed the dataset using SQL to extract business insights:
 
 ---
 
-## Skills Demonstrated
+## 🛠️ Skills Demonstrated
 
 - **SQL (PostgreSQL)** — Aggregations, GROUP BY, subqueries
 - **Power BI** — Dashboard design, KPI cards, charts, maps
@@ -117,7 +106,7 @@ Analyzed the dataset using SQL to extract business insights:
 
 ---
 
-## Author
+## 👤 Author
 
 **Saklain Alam**  
 Aspiring Data Analyst | SQL | Power BI | Python | Excel
